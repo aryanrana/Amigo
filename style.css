@@ -1,0 +1,133 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.top{
+    display: flex;
+}
+
+.bottom{
+    display: flex;
+}
+
+.puzzle{
+    margin: 5px;
+}
+
+.piece2_1{
+    background-position:0 0;
+    width:205px;
+}
+
+.piece2_2{
+    background-position: -205px 0;
+    width:205px;
+}
+
+.piece3_1{
+    background-position:0 0;
+    width: 140px;
+}
+
+.piece3_2{
+    background-position:-140px 0;
+    width: 140px;
+}
+
+.piece3_3{
+    background-position:-280px 0;
+    width: 140px;
+}
+
+.piece10_1{
+    background-position:0 0;
+    width: 80px;
+    height: 125px;
+}
+
+.piece10_2{
+    background-position:-90px 0;
+    width: 80px;
+    height: 125px;
+}
+
+.piece10_3{
+    background-position:-180px 0;
+    width: 80px;
+    height: 125px;
+}
+
+.piece10_4{
+    background-position:-270px 0;
+    width: 80px;
+    height: 125px;
+}
+
+.piece10_5{
+    background-position:-360px 0;
+    width: 80px;
+    height: 125px;
+}
+
+.piece10_6{
+    background-position:0 -125px;
+    width: 80px;
+    height: 125px;
+}
+
+.piece10_7{
+    background-position:-90px -125px;
+    width: 80px;
+    height: 125px;
+}
+
+.piece10_8{
+    background-position:-180px -125px;
+    width: 80px;
+    height: 125px;
+}
+
+.piece10_9{
+    background-position:-270px -125px;
+    width: 80px;
+    height: 125px;
+}
+
+.piece10_10{
+    background-position:-360px -125px;
+    width: 80px;
+    height: 125px;
+}
+
+/*#display_image{
+    width: 450px;
+    height: 254px;
+    padding: 5px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}*/
+
+#display_image_game{
+    display: flex;
+    width: 450px;
+    height: 254px;
+    padding: 5px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}
+
+#game{
+    display:none;
+    height: 250px;
+}
+
+#pre-game{
+    text-align:center;
+}
